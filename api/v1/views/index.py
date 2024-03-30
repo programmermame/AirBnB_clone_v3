@@ -23,7 +23,7 @@ classes = {
 }
 
 
-@app_views.route("/status")
+@app_views.route("/stats")
 def status():
     """Status of my API"""
     return jsonify({"status": "OK"})
